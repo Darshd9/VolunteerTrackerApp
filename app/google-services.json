@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "912101468003",
+    "firebase_url": "https://volunteer-map-b4ac5.firebaseio.com",
+    "project_id": "volunteer-map-b4ac5",
+    "storage_bucket": "volunteer-map-b4ac5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912101468003:android:e223d6ec847f5b43",
+        "android_client_info": {
+          "package_name": "com.example.volunteertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912101468003-58moivnvhi4rrlp0j7ctrv0qkojv2bb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn-yNmnUX6XbwL5CGUFaKyp-ZGdwRxE68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
