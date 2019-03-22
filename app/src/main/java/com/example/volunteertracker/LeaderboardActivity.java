@@ -85,7 +85,6 @@ db = FirebaseFirestore.getInstance();
 
                             Collections.reverse(volunteerList);
 
-                            //Collections.sort(volunteerList, Collections.<Volunteer>reverseOrder());
 
 
 
@@ -97,50 +96,6 @@ db = FirebaseFirestore.getInstance();
                         }
                     }
                 });
-
-
-
-
-        /*
-        while(data.moveToNext()){
-
-            playerList.add(new Player(data.getString(1), data.getInt(2), data.getInt(3), data.getInt(4),
-
-                    data.getInt(5), data.getInt(6), data.getInt(7), data.getInt(8)));
-
-        }*/
-
-        /*volunteerList.add(new Volunteer("Jeff", 30));
-        volunteerList.add(new Volunteer("Ansen", 20));
-        volunteerList.add(new Volunteer("Albert", 50));
-        volunteerList.add(new Volunteer("Sebastian", 70));
-        volunteerList.add(new Volunteer("Saad", 15));*/
-
-
-
-
-
-
-        /*
-        leaderBoard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-                Player player = (Player) adapterView.getItemAtPosition(i);
-
-                String name = player.getName();
-
-                Intent playerStats = new Intent(LadderView.this, PlayerStats.class);
-
-                playerStats.putExtra("name", name);
-
-                startActivity(playerStats);
-
-            }
-
-        });*/
 
     }
 }

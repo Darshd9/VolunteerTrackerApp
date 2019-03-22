@@ -68,7 +68,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         callback = new LocationCallback() {
             @Override
             public void onLocationResult(LocationResult locationResult) {
-                // do work here
+
                 if (locationResult.getLastLocation() == null) return;
 
                 onLocationChanged(locationResult.getLastLocation());
@@ -229,7 +229,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 location.getLongitude();
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
 
-        // You can now create a LatLng Object for use with maps
+
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         map.clear();
         map.animateCamera(CameraUpdateFactory.newLatLngZoom(

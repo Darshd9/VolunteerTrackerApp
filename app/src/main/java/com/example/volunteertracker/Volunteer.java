@@ -8,7 +8,7 @@ import com.google.firebase.firestore.IgnoreExtraProperties;
 public class Volunteer {
     private String name;
     private int volunteerHours;
-    private Location location;
+
 
     public Volunteer(String name, int volunteerHours){
         this.name = name;
@@ -35,13 +35,6 @@ public class Volunteer {
         this.volunteerHours++;
     }
 
-    public Location getLocation() {
-        return location;
-    }
-
-    public void setLocation(Location location) {
-        this.location = location;
-    }
 
     @Override
     public String toString() {
